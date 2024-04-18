@@ -22,10 +22,10 @@ jobs:
       run: npx jest upload.spec.ts
 
     - name: Run Jest Test
-      run: npx jest createTour.spec.ts
+      run: npx jest posts.spec.ts
 
     - name: Run Jest Test
-      run: npx jest login.spec.ts
+      run: npx jest comments.spec.ts
 
     - name: Run Jest Test
-      run: npx jest userSignup.spec.ts
+      run: npx jest albums.spec.ts
