@@ -20,3 +20,12 @@ jobs:
 
     - name: Run Jest Test
       run: npx jest upload.spec.ts
+
+    - name: Run Jest Test
+      run: npx jest createTour.spec.ts
+
+    - name: Run Jest Test
+      run: npx jest login.spec.ts
+
+    - name: Run Jest Test
+      run: npx jest userSignup.spec.ts
