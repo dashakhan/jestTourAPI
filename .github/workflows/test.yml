@@ -19,16 +19,17 @@ jobs:
       run: npm install
 
     - name: Run Jest Test
-      run: npx jest users.spec.ts
-
-    - name: Run Jest Test
       run: npx jest upload.spec.ts
 
-    - name: Run Jest Test
-      run: npx jest posts.spec.ts
 
     - name: Run Jest Test
-      run: npx jest comments.spec.ts
+      run: npx jest specs/typicode/users.spec.ts
 
     - name: Run Jest Test
-      run: npx jest albums.spec.ts
+      run: npx jest specs/typicode/posts.spec.ts
+
+    - name: Run Jest Test
+      run: npx jest specs/typicode/comments.spec.ts
+
+    - name: Run Jest Test
+      run: npx jest specs/typicode/albums.spec.ts
