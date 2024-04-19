@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="24.887">
+  <testsuite name="UPLOAD" errors="0" failures="0" skipped="0" timestamp="2024-04-19T03:23:34" time="24.217" tests="3">
+    <testcase classname="UPLOAD upload single document" name="UPLOAD upload single document" time="0.948">
+    </testcase>
+    <testcase classname="UPLOAD upload multiple documents" name="UPLOAD upload multiple documents" time="0.526">
+    </testcase>
+    <testcase classname=" upload multiple documents" name=" upload multiple documents" time="0.709">
+    </testcase>
+  </testsuite>
+</testsuites>
